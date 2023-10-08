@@ -1,7 +1,7 @@
 // Define hex color codes
 
-//$primary-blue: #3498db;
-$primary-blue:#3488dd;
+$primary-blue: #3498db;
+//primary-blue:#3488dd;
 $secondary-green: #2ecc71;
 $warning-red: #e74c3c;
 $info-yellow: #f1c40f;
