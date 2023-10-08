@@ -1,0 +1,42 @@
+// Define hex color codes
+$primary-blue: #3498db;
+$secondary-green: #2ecc71;
+$warning-red: #e74c3c;
+$info-yellow: #f1c40f;
+
+// Semantic color variables
+$primary-color: $primary-blue;
+$secondary-color: $secondary-green;
+$danger-color: $warning-red;
+$highlight-color: $info-yellow;
+
+// Other semantic variables
+$body-font: 'Arial', sans-serif;
+$heading-font: 'Helvetica', sans-serif;
+$text-color: #333;
+$background-color: #f5f5f5;
+
+// Usage example
+body {
+  font-family: $body-font;
+  font-size: 16px;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+.button-primary {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.button-danger {
+  background-color: $danger-color;
+  color: #fff;
+}
+
+.header {
+  font-family: $heading-font;
+  font-size: 24px;
+  color: $text-color;
+}
+
