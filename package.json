@@ -1,6 +1,6 @@
 {
   "name": "design-system-shapa",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Design system package is aimed to provide you easy to use CSS customozation from different companies. Version 1 will be a test run to try out different approaches. Expect subsequent path versions to have breaking changes.",
   "main": "index.scss",
   "scripts": {
