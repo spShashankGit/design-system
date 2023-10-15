@@ -19,14 +19,13 @@ $text-color: #333;
 $background-color: #f5f5f5;
 
 // Colour Map
-
-$colours:(
-primary: $primary-blue,
-secondary: $primary-secondary,
-success: $primary-green,
-danger: $warning-red,
-warning: $info-yellow
-)
+$colours: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: $secondary-green,
+  danger: $warning-red,
+  warning: $info-yellow
+);
 
 // Usage example
 body {
