@@ -18,6 +18,16 @@ $heading-font: 'Helvetica', sans-serif;
 $text-color: #333;
 $background-color: #f5f5f5;
 
+// Colour Map
+
+$colours:(
+primary: $primary-blue,
+secondary: $primary-secondary,
+success: $primary-green,
+danger: $warning-red,
+warning: $info-yellow
+)
+
 // Usage example
 body {
   font-family: $body-font;
@@ -27,7 +37,7 @@ body {
 }
 
 .button-primary {
-  background-color: $primary-color;
+  background-color: map-get($colours,primary);
   color: #fff;
 }
 
