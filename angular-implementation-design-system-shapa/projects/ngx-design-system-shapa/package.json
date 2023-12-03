@@ -1,0 +1,23 @@
+{
+  "name": "ngx-design-system-shapa",
+  "version": "0.0.8",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spShashankGit/design-system"
+  },
+  "description": "This library is created to provide the possibility to use the color tokens from the node package design-system-shapa",
+  "keywords": [
+    "angular",
+    "design-system",
+    "design-system-shapa",
+    "ngx-design-system-shapa"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
